@@ -14,11 +14,11 @@ export const EndScreen = () => {
                 setgamestate("menu");
                 setscore(0);
             }}>Play Again</button>
-            {/* <button
+            <button
             onClick={()=>[
                 setgamestate("viewAnswers")
             ]}
-            className="next">View Answers</button> */}
+            className="next">View Answers</button>
         </div>
     )
 }
