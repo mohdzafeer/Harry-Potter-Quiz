@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="  bg-red-900 flex flex-col justify-start items-center">
-      <h1 className='text-4xl font-extrabold m-5 md:text-lg' style={{ color: "#ffc500" }}>QUIZ APP</h1>
+      <h1 className='lg:text-5xl text-2xl md:text-3xl sm:text-xl font-extrabold m-5 ' style={{ color: "#ffc500" }}>QUIZ APP</h1>
       <QuizContext.Provider
         value={{ gamestate, setgamestate, score, setscore }}>
 
