@@ -14,8 +14,8 @@ function App() {
   const [score, setscore] = useState(0)
 
   return (
-    <div className="App">
-      <h1 style={{ color: "#ffc500" }}>QUIZ APP</h1>
+    <div className="  bg-red-900 flex flex-col justify-start items-center">
+      <h1 className='text-4xl font-extrabold m-5 md:text-lg' style={{ color: "#ffc500" }}>QUIZ APP</h1>
       <QuizContext.Provider
         value={{ gamestate, setgamestate, score, setscore }}>
 

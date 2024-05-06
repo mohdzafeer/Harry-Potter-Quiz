@@ -3,10 +3,10 @@ import { QuizContext } from "../Helpers/Context"
 import '../App.css';
 
 export const MainMenu = () => {
-    const { gamestate, setgamestate } = useContext(QuizContext)
+    const {  setgamestate } = useContext(QuizContext)
     return (
-        <div className="Main-Menu">
-            <img className="hp" src="https://freepngimg.com/thumb/harry_potter/23827-9-harry-potter-logo-transparent-image.png"></img>
+        <div className="bg-yellow-400 p-5 flex flex-col items-center rounded-lg mt-10 justify-center">
+            <img className="hp" src="https://freepngimg.com/thumb/harry_potter/23827-9-harry-potter-logo-transparent-image.png" alt="Harry Potter Logo"></img>
             <button
             className="start-btn"
                 onClick={() => { setgamestate("quiz") }}>
